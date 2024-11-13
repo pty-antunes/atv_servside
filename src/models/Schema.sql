@@ -22,3 +22,8 @@ CREATE TABLE IF NOT EXISTS contacts (
 SHOW TABLES;
 DESCRIBE categories;
 DESCRIBE contacts;
+
+INSERT INTO contacts (name, email, phone, category_id)
+VALUES ('Teste da Silva', 'teste@mail.com', '123-123', 1);
+
+SELECT * FROM contacts;
